@@ -7,7 +7,7 @@
       "default_popup": "popup.html",
       "default_title": "Israeli IronChrome - VirusTotal LinkScanner"
    }
-   ,"description": "Automatically scan any link *anonimously* in http://www.virustotal.com\n Updates & Support: http://www.ironchrome.co.il"
+   ,"description": "Automatically scan any link *Anonymously* in http://www.virustotal.com\n Updates & Support: http://www.ironchrome.co.il"
    ,"icons": {
       "128": "logo-128.png",
       "16": "logo-16.png"
