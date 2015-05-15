@@ -60,7 +60,7 @@ function sleep(seconds) {
 // Start/Run Process Tor.exe
 try {	
 	chrome.tabs.create({'url': 'tor://'}, function(curTabId) {
-			sleep(0.500);
+			sleep(2);
 			chrome.tabs.remove(curTabId.id);
 	});
 }
@@ -183,7 +183,7 @@ Israeli_IronChromeLinkScanner.searchTerm = function(term) {
 		chrome.tabs.create({'url': Israeli_IronChromeLinkScanner.searchsite + stripped_term}, function(curTabId2) {
 			TORifiedTabs.push(curTabId2.id);
 
-			chrome.tabs.onRemoved.addListener(function (tabId) {
+			chrome.tabs.onRemoved.addListener(function (tabId2) {
 			   
 			   if (TORifiedTabs.contains(tabId2)) {
 					unTORify();

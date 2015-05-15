@@ -12,7 +12,7 @@
  */
 function scanCurrentClickHandler(e) {
   var bkg = chrome.extension.getBackgroundPage();
-  bkg.ironchromelinkscanner.scanCurrentURL();
+  bkg.Israeli_IronChromeLinkScanner.scanCurrentURL();
 }
 
 document.addEventListener('DOMContentLoaded', function() {
